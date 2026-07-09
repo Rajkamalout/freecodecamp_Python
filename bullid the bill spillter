@@ -16,3 +16,16 @@ print('Tip amount:', tip)
 
 running_total +=tip
 print("Total with tip:",running_total)
+
+With the tip now included, you have the final amount for the entire group. You have to determine how much each person owes by dividing the total bill by the number of friends.
+
+In Python, you use the forward slash / to perform division. For example:
+
+Example Code
+half = 10 / 2
+Create a variable named final_bill and assign it the result of dividing running_total by num_of_friends.
+
+Finally, use the print() function to display the string Bill per person: followed by a space and the value of final_bill.
+
+final_bill=running_total/num_of_friends
+print("Bill per person:",final_bill)
